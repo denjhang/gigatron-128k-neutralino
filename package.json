@@ -1,0 +1,44 @@
+{
+  "name": "gigatron-128k-simulator",
+  "version": "1.0.0",
+  "description": "Gigatron 128K RAM & IO expansion board simulator with SD card support",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never"
+  },
+  "keywords": [
+    "gigatron",
+    "simulator",
+    "emulator"
+  ],
+  "author": "Gigatron Community",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "gigatron.js.electron.dev128k",
+    "productName": "Gigatron 128K Simulator",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "html/**/*",
+      "sd.vhd",
+      "dev128k.rom",
+      "favicon.ico",
+      "electron-main.js"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "favicon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

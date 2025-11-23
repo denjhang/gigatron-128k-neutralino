@@ -1,0 +1,21 @@
+非常好，现在正常了，请加入窗口自适应大小，将窗口长宽自动扩大到能显示仿真器画面
+
+neu版本目前只有dev128k.rom正确载入,但是sd.vhd没有自动载入，并且拖拽文件载入rom或者vhd或者gt1的功能不见了。
+
+
+
+Could not load ROM from ./resources/dev128k.rom
+
+neu打包运行出现找不到此 127.0.0.1 页
+找不到以下 Web 地址的网页： http://127.0.0.1:51833/index_128k.html
+HTTP E，，，
+
+请使用loader_l.js
+
+
+窗口全黑，仿真器没有正确运行
+
+帮我将本项目迁移到neu,并且帮我用neu打包本项目到exe。默认使用sd.vhd和dev128k.rom作为仿真器默认加载的文件。使用favicon.ico作为图标
+本环境是bash，已经安装pacman，node，npm，neu之类的，如果缺少请静默安装，
+参考这里进行部署和打包D:\working\vscode-projects\Reference_Project\Gigatron\gigatron-128k-runjs-混乱;
+目前仿真器黑屏。
