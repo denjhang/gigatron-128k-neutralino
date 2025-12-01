@@ -1,0 +1,15 @@
+{
+  "name": "runjs",
+  "version": "1.0.0",
+  "description": "The contents of the `html` directory is a variant of Phil Thomas' Javascript Gigatron emulator with support for the emulation of a 128K RAM&IO expansion board with a SD card on port SPI0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neutralinojs/neu": "^11.6.0"
+  }
+}

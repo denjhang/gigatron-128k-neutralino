@@ -1,0 +1,20 @@
+让neu程序默认加载resources文件夹下的sd.vhd和Gigatron.rom。
+
+很好，但是原版网页端程序允许拖拽载入gt1文件，请恢复此功能在neu程序中，注意修改resources文件夹下代码才影响neu打包，修改html文件夹没用。
+
+
+本环境是bash
+
+请每次build之后检查resources文件夹是否真正有所需资源
+
+resources几乎是空的，没有128k.html，文件没有从html文件夹中复制过来
+
+找不到此 127.0.0.1 页
+找不到以下 Web 地址的网页： http://127.0.0.1:53513/index_128k.html
+HTTP ERROR 404，resources文件夹几乎是空的
+
+还是老样子，请参考这个项目的配置，它正常D:\working\vscode-projects\Reference_Project\Gigatron\gigatron-128k-runjs6；
+
+参考以下文档，将本项目配置为neu并且打包。
+D:\working\vscode-projects\Reference_Project\Gigatron\gigatron-128k-runjs6\neu打包状态文档.md；
+你有全部的文件权限，可以访问目录之外的文件。

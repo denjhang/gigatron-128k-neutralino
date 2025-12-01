@@ -1,0 +1,86 @@
+{
+  "applicationId": "com.gigatron.emulator.neutralino",
+  "applicationName": "Gigatron 128K",
+  "applicationVersion": "1.0.0",
+  "description": "Gigatron 128K 8-bit Audio Emulator - A lightweight desktop application based on Neutralino.js",
+  "url": "/resources/index_128k.html",
+  "port": 0,
+  "loadNativeResource": true,
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*",
+    "os.*",
+    "filesystem.*",
+    "window.*",
+    "debug.log"
+  ],
+  "tokenSecurity": "none",
+  "globalVariables": {
+    "TEST": "Hello World"
+  },
+  "modes": {
+    "window": {
+      "title": "Gigatron 128K 8-bit Audio Emulator",
+      "width": 900,
+      "height": 750,
+      "minWidth": 800,
+      "minHeight": 650,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/resources/favicon.ico",
+      "enableInspector": false,
+      "borderless": false,
+      "maximize": true,
+      "hidden": false,
+      "resizable": true,
+      "center": true
+    },
+    "browser": {
+      "nativeBlockOpenExternalLinks": false
+    },
+    "cloud": {
+      "enableRemoteModule": false
+    }
+  },
+  "cli": {
+    "binaryName": "gigatron-128k",
+    "resourcesPath": "/resources/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/resources/neutralino.js",
+    "binaryVersion": "6.3.0",
+    "clientVersion": "6.3.0"
+  },
+  "files": [
+    {
+      "src": "html/**/*",
+      "dest": "/resources/"
+    },
+    {
+      "src": "/roms/**/*",
+      "dest": "/resources/"
+    },
+    {
+      "src": "/gt1/**/*",
+      "dest": "/resources/"
+    },
+    {
+      "src": "/resources/**/*",
+      "dest": "/resources/"
+    },
+    {
+      "src": "/sd.vhd",
+      "dest": "/resources/"
+    },
+    {
+      "src": "/dev128k.rom",
+      "dest": "/resources/"
+    },
+    {
+      "src": "/resources/favicon.ico",
+      "dest": "/resources/"
+    }
+  ],
+  "buildPath": "./dist/",
+  "extensions": []
+}

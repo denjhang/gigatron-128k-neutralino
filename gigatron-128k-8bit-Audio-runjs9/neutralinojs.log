@@ -1,0 +1,21 @@
+INFO 2025-12-01 12:12:05,084 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:12:05,869 NE_RS_UNBLDRE: Unable to load application resource file /resources/index_128k.html api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:13:04,928 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:13:05,471 NE_RS_UNBLDRE: Unable to load application resource file /resources/index_128k.html api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:14:40,246 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:14:40,797 NE_RS_UNBLDRE: Unable to load application resource file /resources/index_128k.html api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:20:27,737 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:20:29,550 NE_RS_UNBLDRE: Unable to load application resource file /favicon.ico api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:22:16,004 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:22:17,431 NE_RS_UNBLDRE: Unable to load application resource file /resources/sd.vhd api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:22:17,435 NE_RS_UNBLDRE: Unable to load application resource file /resources/gigatron.rom api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:22:17,441 NE_RS_UNBLDRE: Unable to load application resource file /favicon.ico api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:22:43,092 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:22:43,905 NE_RS_UNBLDRE: Unable to load application resource file /resources/sd.vhd api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:22:43,916 NE_RS_UNBLDRE: Unable to load application resource file /favicon.ico api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:24:53,422 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:24:55,072 NE_RS_UNBLDRE: Unable to load application resource file /favicon.ico api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:27:48,408 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:27:50,078 NE_RS_UNBLDRE: Unable to load application resource file /favicon.ico api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
+INFO 2025-12-01 12:36:17,492 Auth info was exported to ./.tmp/auth_info.json api\debug\debug.cpp:17 denjhang@DESKTOP-5FE02IV
+ERROR 2025-12-01 12:36:19,179 NE_RS_UNBLDRE: Unable to load application resource file /favicon.ico api\debug\debug.cpp:20 denjhang@DESKTOP-5FE02IV
